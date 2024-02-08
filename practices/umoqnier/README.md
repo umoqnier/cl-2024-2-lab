@@ -12,4 +12,4 @@
 
 ## Proyectos en los que he participado y que me enorgullesen 🖤
 
-- (Esquite)[https://github.com/ElotlMX/Esquite/]
+- [Esquite](https://github.com/ElotlMX/Esquite/)
