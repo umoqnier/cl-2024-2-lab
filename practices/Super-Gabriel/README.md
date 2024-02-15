@@ -1,4 +1,12 @@
-**Nombre:** Angel Gabriel Sánchez Pavia
+# Angel Gabriel Sánchez Pavia
 
-**Sobre mi:** Soy estudiante de CC, me gusta la música, toco piano y guitarra,
-mi comida favorita son los tacos al pastor c:
+- Número de cuenta: `318281940`
+- User de Github: @Super-Gabriel
+- Me gusta que me llamen: Gabriel, Gabo
+
+## Pasatiempos
+
+- Tocar piano
+- Tocar guitarra
+- Jugar ajedrez
+- Jugar videojuegos
