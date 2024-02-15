@@ -9,4 +9,3 @@
 - Tocar piano
 - Tocar guitarra
 - Jugar ajedrez
-- Jugar videojuegos
