@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "cl-2024-2-lab"
+version = "0.1.0"
+description = ""
+authors = ["Diego Alberto Barriga Martinez <umoqnier@riseup.net>"]
+license = "GPL-3"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+notebook = "^7.0.7"
+numpy = "^1.26.3"
+pandas = "^2.2.0"
+nltk = "^3.8.1"
+rise = "^5.7.1"
+jupyterlab-rise = "^0.42.0"
+jupytext = "^1.16.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
