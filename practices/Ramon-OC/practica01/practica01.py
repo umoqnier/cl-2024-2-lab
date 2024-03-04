@@ -325,3 +325,8 @@ def browser():
             print(results)
 
 browser()
+
+# 3. Observe las distribuciones de longitud de palabra y de número de morfemas por palabra para todas lenguas. Basado en esos datos, haga un comentario sobre las diferencias en morfología de las lenguas
+
+ # Lenguas como el francés, inglés, español e italiano comparten una longitud promedio de palabra bastante similar, aunque se puede notar una variación ligera en la distribución morfológica de sus palabras. A pesar de esto, su morfología exhibe un comportamiento comparable, estos lenguajes tienden a mantenerse dentro de valores bajos en la construcción de palabras dada su morfología. Destaca de los resultados el latín, donde todas sus palabras generalmente se conforman de tres morfemas como máximo, con la mayoría de las palabras contenidas en el rango de dos a tres. Sin embargo, la longitud de sus palabras guarda gran similitud con la del italiano.
+ # En el caso del ruso, se observa un comportamiento particular en cuanto al número de morfemas, con una distribución equilibrada y la mayoría de sus palabras oscilando entre dos y cinco morfemas. La longitud de sus palabras, al igual que en el resto de las lenguas mencionadas, se distribuye de forma similar. Finalmente, se detecta en el húngaro y el checo una distribución análoga, aunque con una diferencia de cinco letras en la extensión de la palabra, cinco palabras más en el húngaro. A pesar de ello, el número de morfemas es muy semejante en ambas.
