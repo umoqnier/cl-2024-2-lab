@@ -190,7 +190,7 @@ Software libre cuyo proposito es versionar los archivos de un **directorio de tr
 
 ```python editable=true id="de0e9924-0890-4105-89a6-700d5a14bea4" outputId="cb39f3b5-e923-4356-f644-1f1277b6e9fb" slideshow={"slide_type": "subslide"}
 %%HTML
-<iframe width="760" height="415" src="https://www.youtube.com/embed/5iFnzr73XXk?controls=1"></iframe>
+<center><iframe width="960" height="615" src="https://www.youtube.com/embed/5iFnzr73XXk?controls=1"></iframe></center>
 ```
 
 <!-- #region editable=true id="05e2cae4-cace-4533-828b-6358dff98a60" slideshow={"slide_type": "subslide"} -->
@@ -315,7 +315,7 @@ Revisar el historial de commits del proyecto, sus mensajes y quien realizó los 
 <center><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.perforce.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2Fsocial_preview_image%2Fpublic%2Fimage%2F2020-07%2Fimage-blog-git-branching-model.jpg%3Fitok%3DrJ4GurJ8&f=1&nofb=1&ipt=319db8a24f10e5417740fc07d1b0a52225c1ae0f1ee28fc384a4b001733510c3&ipo=images"></center>
 <!-- #endregion -->
 
-<!-- #region editable=true id="b65bf6dc-c133-40d5-8ada-efd0aead6855" slideshow={"slide_type": "fragment"} -->
+<!-- #region editable=true id="b65bf6dc-c133-40d5-8ada-efd0aead6855" slideshow={"slide_type": "subslide"} -->
 - Parte fundamental del software `git` es su manejo de ramas (o *branches*)
 - Considerada la *killer feature* de `git`
 - Trabajar con ramas permite explorar nuevos desarrollos sin romper, ensuciar o arruinar nuestra rama principal
@@ -418,7 +418,7 @@ Revisar el historial de commits del proyecto, sus mensajes y quien realizó los 
 <!-- #endregion -->
 
 <!-- #region editable=true slideshow={"slide_type": "fragment"} -->
-<center><img src="https://wac-cdn.atlassian.com/dam/jcr:cc0b526e-adb7-4d45-874e-9bcea9898b4a/04%20Hotfix%20branches.svg?cdnVersion=1437"></center>
+<center><img height="900" width="900" src="https://wac-cdn.atlassian.com/dam/jcr:cc0b526e-adb7-4d45-874e-9bcea9898b4a/04%20Hotfix%20branches.svg?cdnVersion=1437"></center>
 <!-- #endregion -->
 
 <!-- #region editable=true id="3b62d3c9-0ca1-4a37-bb02-f3cc1dc1bb8b" slideshow={"slide_type": "slide"} -->
