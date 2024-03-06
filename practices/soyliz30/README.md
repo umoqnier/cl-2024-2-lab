@@ -1,7 +1,7 @@
 Lizeth Palacios Patiño
 - Número de cuenta: 314247883
 - User de GitHub: @soyliz30
-- Me gusta que me llamen: Liz, Liza, Bob Patiño, LP.
+- Me gusta que me llamen: Liz, Liza, Bob Patiño.
 
 Pasatiempos
 - Disfruto de leer ciencia ficción, poesía y ensayos.
