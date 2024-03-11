@@ -107,7 +107,7 @@ for i in range(len(X_test[c])):
         s +=  X_test[c][i]['word'] + "(\033[2;32;3m" + y_pred[c][i] + "\033[0;0m) "
     else:
         s +=  X_test[c][i]['word'] + "(\033[2;31;1m" + y_pred[c][i] + "\033[0;0m) "
-print('Predicción:\n' + s)
+print('Oración de ejemplo:\nPredicción:\n' + s)
 s = ''
 for i in range(len(X_test[c])):
     if y_pred[c][i] == y_test[c][i]:
