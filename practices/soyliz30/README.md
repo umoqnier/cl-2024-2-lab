@@ -8,7 +8,7 @@ Pasatiempos
 - Ir a Karaokes.
 - Hacer running y escalar cerros.
 
-Proyectos en los que he participado y me enorgullecen
+Proyectos en los que he participado y me enorgullecen 💛
 - Formo parte del Grupo de Investigación en Estudios del Lenguaje por la FFyL.
 - Formé parte del grupo de divulgación en SAFIR.
 - Colaboré con Poesía Suelta, un proyecto sobre poesía y literatura.
