@@ -21,6 +21,9 @@ scikit-learn = "^1.4.1.post1"
 spacy = "^3.7.4"
 sklearn-crfsuite = "^0.3.6"
 elotl = "^0.0.1.16"
+transformers = "^4.38.2"
+sentencepiece = "^0.2.0"
+subword-nmt = "^0.3.8"
 
 
 [build-system]
