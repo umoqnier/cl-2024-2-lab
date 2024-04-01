@@ -3,6 +3,44 @@ import matplotlib.pyplot as plt
 plt.rcParams['figure.figsize'] = [9, 4]
 import numpy as np
 import random
+import pandas as pd
+import nltk
+from wordcloud import WordCloud
+from nltk.corpus import stopwords as sw
+
+# ---
+# Ejercicio 1
+# ---
+
+# Leemos el archivo CREA_total.TXT
+
+data = []
+with open("./CREA_total.TXT", "r", encoding='latin-1') as file:
+    for line in file:
+        data.append(line.replace(" ","").split("\t"))
+data.pop(0)
+
+# Stopwords Zipf
+stopwords_z = {_[1]:int(_[2].replace(",","")) for _ in data}
+
+wc = WordCloud(background_color='white',min_font_size=10).generate_from_frequencies(stopwords_z)
+plt.figure(figsize = (8, 8), facecolor = None)
+plt.imshow(wc)
+plt.axis("off")
+plt.tight_layout(pad = 0)
+plt.show()
+
+# Stopwords NLTK
+stopwords_p = {stopword:stopwords_z[stopword] for stopword in sw.words('spanish')}
+
+wc = WordCloud(background_color='white',min_font_size=10).generate_from_frequencies(stopwords_p)
+plt.figure(figsize = (8, 8), facecolor = None)
+plt.imshow(wc)
+plt.axis("off")
+plt.tight_layout(pad = 0)
+plt.show()
+
+# Se obtienen resultados similares, pues en cuanto más apariciones tiene una palabra en un texto, menos información tiende a aportar
 
 # ---
 # Ejercico 2
