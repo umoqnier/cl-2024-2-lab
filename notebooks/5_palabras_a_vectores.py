@@ -795,7 +795,8 @@ model.wv.most_similar("nochecitas", topn=10)
 #     - Reducir a 2d
 #     - Plotear 1000 vectores de las palabras más frecuentes
 # - Analizar y comparar las topologías que se generan con cada algoritmo
-#   - ¿Se guardan las relaciones semánticas? si o no y porqué
+#   - ¿Se guardan las relaciones semánticas? si o no y ¿porqué?
+#   - ¿Qué método de reducción de dimensaionalidad consideras que es mejor?
 
 # + [markdown] id="_4NuMOSJFzhI"
 # # Referencias
