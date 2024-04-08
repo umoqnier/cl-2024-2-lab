@@ -24,6 +24,8 @@ elotl = "^0.0.1.16"
 transformers = "^4.38.2"
 sentencepiece = "^0.2.0"
 subword-nmt = "^0.3.8"
+wikiextractor = "^3.0.6"
+gensim = "^4.3.2"
 
 
 [build-system]
