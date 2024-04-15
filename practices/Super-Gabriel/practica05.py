@@ -1,7 +1,7 @@
 from gensim.models import Word2Vec
 import gensim.downloader as api
 
-"""
+
 
 # Descargando el corpus de Wikipedia
 corpus = api.load('text8')
@@ -11,12 +11,12 @@ model = Word2Vec(corpus)
 
 # guardando el modelo para no repetir siempre que
 # se interprete el archivo.
-model.save("model.bin")
+#model.save("model.bin")
 
-"""
+
 
 # cargando el modelo ya entrenado (las lineas anteriores son para entrenarlo)
-model = Word2Vec.load("modelP05.bin")
+#model = Word2Vec.load("modelP05.bin")
 
 
 from sklearn.decomposition import PCA, TruncatedSVD
