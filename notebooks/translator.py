@@ -29,7 +29,7 @@ def main():
     st.title("Traductor fr -> en")
 
     with st.form("my_form"):
-        user_input = st.text_area("Source Text", max_chars=200)
+        user_input = st.text_area("Source Text", max_chars=1000)
         translation = translate(user_input, translator, sp_source, sp_target)
 
         submitted = st.form_submit_button("Translate")
