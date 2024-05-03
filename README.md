@@ -160,6 +160,29 @@ como estan siendo representados los vectores.
     - ¿Como se diferencia de BLEU?
     - ¿Porqué es reelevante utilizar otras medidas de evaluación además de BLEU?
 
+### Práctica 8: Estrategias de generación de texto
+
+#### Fecha de entrega: 12 de Mayo 2024 11:59p.m.**
+
+- Construir un modelo del lenguaje neuronal a partir de un corpus en español
+  - Corpus: El Quijote. URL: https://www.gutenberg.org/ebooks/2000
+    - **NOTA: Considera los recursos de computo. Recuerda que en la practica utilizamos ~50k oraciones**
+  - Modelo de trigramas con `n = 3`
+  - Incluye informacion sobre setup de entrenamiento:
+    - Dimension de embeddings
+    - Dimsension de capa oculta
+    - Cantidad de oraciones para entrenamiento
+    - Batch size y context size
+  - Incluye la liga de drive de tu modelo
+- Imprima en pantalla un tres ejemplos de generacion de texto
+  - Proponga mejoras en las estrategias de generación de texto vistas en la práctica
+  - Decriba en que consiste la estrategia propuesta
+  - Compare la estrategia de la práctica y su propuesta
+
+**Extra**
+
+- Visualizar en 2D los vectores de las palabras más comunes (excluir STOP WORDS)
+
 ## Apéndice
 
 ### Enlaces
