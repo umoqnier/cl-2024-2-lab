@@ -1,0 +1,9 @@
+Ejercicio 1.
+¿Obtenemos el mismo resultado? Si o no y ¿Porqué?
+No. Solo aproximadamente un tercio de las 300 palabras más frecuentes se encuentran entre las stopwords. Esto puede deberse a que hay palabras que a pesar de ser muy frecuentes, pueden aportar información en el análisis semántico de un texto.
+
+
+Ejercicio 2.
+Nombre del lenguaje: Idioma Pikachu
+Oración de ejemplo: pikachu pikapikachupikachupipikachupipikachupipi pikachupikachupikapikachupipikapikachupikachu pi pikachu pikachupikachupikapipikapipikachu pipikapikapi
+¿Zipf se cumple para el lenguaje? Sí
