@@ -1,0 +1,10 @@
+¿Aumento o disminuyó la entropia para los corpus?
+axolotl: Disminuyó (Fue mayor en word-base y menor en bpe)
+brown: Disminuyó (Fue mayor en word-base y menor en bpe)
+
+¿Qué significa que la entropia aumente o disminuya en un texto?
+Si aumenta significa que la diversidad de tokens se vuelve más variada y por tanto menos predecible y más difícil de analizar.
+Si disminuye significa que la diversidad de tokens es menos variada y por tanto es más predecible y más fácil de analizar.
+
+¿Como influye la tokenizacion en la entropía de un texto?
+Tokenizar suele reducir la entropía, ya que las palabras suelen estar compuestas por lexemas que se repiten entre distintas palabras, por lo que al tener tokens dentro de las palabras, éstos se pueden repetir más veces en el texto que la palabra completa.
