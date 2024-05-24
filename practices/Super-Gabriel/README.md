@@ -9,3 +9,7 @@
 - Tocar piano
 - Tocar guitarra
 - Jugar ajedrez
+<<<<<<< HEAD
+- Jugar videojuegos
+=======
+>>>>>>> upstream/main
