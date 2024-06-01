@@ -93,6 +93,96 @@ Lingüistica computacional, Ciencias, UNAM
     - tokenizado sin normalizar
     - tokenizado normalizado
 
+### Práctica 5 - Reducción de la dimensionalidad
+
+#### Fecha de entrega: 13 de abril 2024 11:59pm
+
+**Actividades**
+
+Hay varios métodos que podemos aplicar para reduccir la dimensionalidad de
+nuestros vectores y asi poder visualizar en un espacio de menor dimensionalidad
+como estan siendo representados los vectores.
+
+- PCA
+- T-SNE
+- SVD
+
+- Entrenar un modelo word2vec
+  - Utilizar como corpus la wikipedia como en la practica
+  - Adaptar el tamaño de ventana y corpus a sus recursos de computo
+  - Ej: Entrenar en colab con ventana de 5 y unas 100k sentencias toma ~1hr
+- Aplicar los 3 algoritmos de reduccion de dimensionalidad
+    - Reducir a 2d
+    - Plotear 1000 vectores de las palabras más frecuentes
+- Analizar y comparar las topologías que se generan con cada algoritmo
+  - ¿Se guardan las relaciones semánticas? si o no y ¿porqué?
+  - ¿Qué método de reducción de dimensaionalidad consideras que es mejor?
+
+### Práctica 6 - Evaluación de modelos de lenguaje
+
+#### Fecha de entrega: 21 de abril de 2024
+
+**Actividades**
+
+- Crear un par de modelos del lenguaje usando un **corpus en español**
+    - Corpus: El Quijote
+        - URL: https://www.gutenberg.org/ebooks/2000
+    - Modelo de n-gramas con `n = [2, 3]`
+    - Hold out con `test = 30%` y `train = 70%`
+- Evaluar los modelos y reportar la perplejidad de cada modelo
+  - Comparar los resultados entre los diferentes modelos del lenguaje (bigramas, trigramas)
+  - ¿Cual fue el modelo mejor evaluado? ¿Porqué?
+
+### Práctica 7 - Modelos neuronales de traducción automática
+
+#### Fecha de entrega: 5 de mayo 2024 11:59pm
+
+**Actividades**
+
+- Explorar los datasets disponibles en el *Shared Task de Open Machine Translation de AmericasNLP 2021*
+    - [Datasets](https://github.com/AmericasNLP/americasnlp2021/tree/main/data)
+    - [Readme](https://github.com/AmericasNLP/americasnlp2021/tree/main#readme)
+- Crear un modelo de traducción neuronal usando OpenNMT-py y siguiendo el pipeline visto en clase
+    - 0. Obtención de datos y preprocesamiento
+        - Considerar que tiene que entrenar su modelo de tokenization
+    - 1. Configuración y entrenamiento del modelo
+    - 2. Traducción
+    - 3. Evaluación
+        - Reportar BLEU
+        - Reportar ChrF (medida propuesta para el shared task)
+        - Más info: [evaluate.py](https://github.com/AmericasNLP/americasnlp2021/blob/main/evaluate.py)
+- Comparar resultados con [baseline](https://github.com/AmericasNLP/americasnlp2021/tree/main/baseline_system#baseline-results)
+- Incluir el archivo `*.translated.desubword`
+
+**Extra**
+
+- Investigar porque se propuso la medida ChrF en el Shared Task
+    - ¿Como se diferencia de BLEU?
+    - ¿Porqué es reelevante utilizar otras medidas de evaluación además de BLEU?
+
+### Práctica 8: Estrategias de generación de texto
+
+#### Fecha de entrega: 12 de Mayo 2024 11:59p.m.**
+
+- Construir un modelo del lenguaje neuronal a partir de un corpus en español
+  - Corpus: El Quijote. URL: https://www.gutenberg.org/ebooks/2000
+    - **NOTA: Considera los recursos de computo. Recuerda que en la practica utilizamos ~50k oraciones**
+  - Modelo de trigramas con `n = 3`
+  - Incluye informacion sobre setup de entrenamiento:
+    - Dimension de embeddings
+    - Dimsension de capa oculta
+    - Cantidad de oraciones para entrenamiento
+    - Batch size y context size
+  - Incluye la liga de drive de tu modelo
+- Imprima en pantalla un tres ejemplos de generacion de texto
+  - Proponga mejoras en las estrategias de generación de texto vistas en la práctica
+  - Decriba en que consiste la estrategia propuesta
+  - Compare la estrategia de la práctica y su propuesta
+
+**Extra**
+
+- Visualizar en 2D los vectores de las palabras más comunes (excluir STOP WORDS)
+
 ## Apéndice
 
 ### Enlaces
