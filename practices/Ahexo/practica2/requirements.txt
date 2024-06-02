@@ -1,0 +1,5 @@
+numpy
+scikit-learn
+sklearn_crfsuite
+unidecode
+tabulate
