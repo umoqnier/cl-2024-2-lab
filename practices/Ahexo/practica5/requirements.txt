@@ -1,0 +1,8 @@
+numpy
+matplotlib
+gensim
+nltk
+scipy
+wikiextractor
+matplotlib
+BeautifulSoup4
